@@ -1,0 +1,24 @@
+{
+  "name": "chatbot-takeblip",
+  "version": "1.0.0",
+  "description": "Desafio técnico da TakeBlip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server/app.js",
+    "debug": "nodemon src/server/app.js"
+  },
+  "keywords": [
+    "challenge"
+  ],
+  "author": "Andre",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "blip-sdk": "^10.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lime-transport-websocket": "^2.0.3",
+    "nodemon": "^2.0.7"
+  }
+}
